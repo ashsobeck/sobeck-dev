@@ -19,19 +19,25 @@ function App() {
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
+            <Logo h="40vmin" pointerEvents="none" rounded="md" />
             <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
+              🚧 Hi! We're currently undergoing some construction. 🚧
             </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
+            <Text>We'll be up and running in no time! </Text>
+            <Text >
+              View My Progress 
+              <Link
+                ml={1}
+                color="teal.500"
+                href="https://github.com/ashsobeck"
+                fontSize="xl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                 Here!
+              </Link>
+            </Text>
+            
           </VStack>
         </Grid>
       </Box>
